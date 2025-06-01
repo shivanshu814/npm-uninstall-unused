@@ -1,0 +1,53 @@
+{
+  "name": "npm-uninstall-unused",
+  "version": "1.0.0",
+  "description": "CLI tool to detect and uninstall unused npm dependencies easily.",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "npm-uninstall-unused": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/simple.test.js",
+    "test:simple": "node tests/simple.test.js",
+    "test:monorepo": "node tests/monorepo.test.js",
+    "test:complex": "node tests/complex-monorepo.test.js",
+    "test:all": "npm run test:simple && npm run test:monorepo && npm run test:complex"
+  },
+  "keywords": [
+    "npm",
+    "dependencies",
+    "unused",
+    "uninstall",
+    "depcheck",
+    "cli",
+    "clean",
+    "monorepo",
+    "devDependencies",
+    "package",
+    "node",
+    "javascript",
+    "typescript",
+    "cleanup",
+    "optimize"
+  ],
+  "author": "Shivanshu Pathak",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shivanshu814/npm-uninstall-unused"
+  },
+  "bugs": {
+    "url": "https://github.com/shivanshu814/npm-uninstall-unused/issues"
+  },
+  "homepage": "https://github.com/shivanshu814/npm-uninstall-unused#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "depcheck": "^1.4.7",
+    "inquirer": "^12.6.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
