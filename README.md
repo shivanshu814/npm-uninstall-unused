@@ -4,7 +4,7 @@ A CLI tool to detect and uninstall unused npm dependencies from your Node.js pro
 
 ## Status
 
-[![npm version](https://badge.fury.io/js/npm-uninstall-unused.svg)](https://badge.fury.io/js/npm-uninstall-unused)
+[![npm version](https://img.shields.io/npm/v/npm-uninstall-unused.svg)](https://www.npmjs.com/package/npm-uninstall-unused)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Why use this?
